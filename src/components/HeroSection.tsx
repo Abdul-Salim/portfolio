@@ -3,7 +3,7 @@
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
+import { FiGithub, FiLinkedin } from "react-icons/fi";
 import {
   FaReact,
   FaNodeJs,
@@ -324,7 +324,7 @@ export default function HeroSection() {
             className="flex justify-center mt-4 space-x-6"
           >
             <a
-              href="https://github.com"
+              href="https://github.com/Abdul-Salim"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -332,20 +332,12 @@ export default function HeroSection() {
               <FiGithub size={24} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/abdul-salim-ps"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <FiLinkedin size={24} />
-            </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors"
-            >
-              <FiTwitter size={24} />
             </a>
           </motion.div>
         </motion.div>

@@ -1,6 +1,6 @@
 "use client";
 
-import { FiGithub, FiLinkedin, FiTwitter, FiArrowUp } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiArrowUp } from "react-icons/fi";
 import { motion } from "framer-motion";
 import { Link as ScrollLink } from "react-scroll";
 
@@ -42,15 +42,6 @@ export default function Footer() {
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <FiLinkedin size={20} />
-            </motion.a>
-            <motion.a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              whileHover={{ y: -5 }}
-              className="text-muted-foreground hover:text-primary transition-colors"
-            >
-              <FiTwitter size={20} />
             </motion.a>
           </div>
 
