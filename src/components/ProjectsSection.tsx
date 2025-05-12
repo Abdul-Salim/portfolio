@@ -11,7 +11,7 @@ import {
   SiNodedotjs,
   SiExpress,
   SiPostgresql,
-  SiThreedotjs,
+  SiSvelte,
 } from "react-icons/si";
 
 const projects = [
@@ -36,7 +36,7 @@ const projects = [
     id: "personal-blog",
     title: "Personal Blog",
     description:
-      "A blog platform with content management, comments, and newsletter subscriptions.",
+      "A simple and elegant personal blog platform to share your thoughts, stories, and ideas with the world.",
     image: "/images/blog.png",
     technologies: [
       <SiNextdotjs key="next" />,
@@ -48,20 +48,15 @@ const projects = [
     category: "frontend",
   },
   {
-    id: "portfolio",
-    title: "Portfolio Website",
+    id: "dns-lookup",
+    title: "DNS Lookup",
     description:
-      "My personal portfolio website for showcasing my skills, expertise and works",
-    image: "/images/portfolio.png",
-    technologies: [
-      <SiNextdotjs key="next" />,
-      <SiReact key="react" />,
-      <SiTailwindcss key="tailwind" />,
-      <SiThreedotjs key="threejs" />,
-    ],
-    liveLink: "https://abdul-salim-portfolio.vercel.app/",
-    githubLink: "https://github.com/Abdul-Salim/portfolio",
-    category: "frontend",
+      "Query Domain Name System (DNS) records for a domain, to retrieve information like IP addresses (A/AAAA records), mail servers (MX records), name servers (NS records), and more.",
+    image: "/images/dns.png",
+    technologies: [<SiSvelte key="svelte" />, <SiTailwindcss key="tailwind" />],
+    liveLink: "https://dns-lookup-phi.vercel.app/",
+    githubLink: "https://github.com/Abdul-Salim/dns-lookup",
+    category: "fullstack",
   },
 ];
 
