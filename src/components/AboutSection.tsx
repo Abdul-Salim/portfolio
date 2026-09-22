@@ -76,7 +76,7 @@ export default function AboutSection() {
             variants={fadeInUp}
             className="text-muted-foreground max-w-2xl mx-auto"
           >
-            I'm a passionate Frontend Developer with 4 years of experience
+            I'm a passionate Frontend Developer with 5 years of experience
             creating modern web applications.
           </motion.p>
         </motion.div>
@@ -97,7 +97,7 @@ export default function AboutSection() {
               >
                 Hi there! I'm Abdul Salim, a frontend developer with a passion
                 for creating beautiful, functional, and user-centered digital
-                experiences. With 4 years of experience in the field, I've
+                experiences. With 5 years of experience in the field, I've
                 worked on a variety of projects from simple websites to complex
                 web applications.
               </motion.p>
@@ -127,7 +127,7 @@ export default function AboutSection() {
                 </div>
                 <div>
                   <h4 className="font-bold mb-2">Experience:</h4>
-                  <p className="text-muted-foreground">4 Years</p>
+                  <p className="text-muted-foreground">5 Years</p>
                 </div>
                 <div>
                   <h4 className="font-bold mb-2">Location:</h4>
