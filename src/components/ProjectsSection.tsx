@@ -15,6 +15,17 @@ import {
 } from "react-icons/si";
 
 const projects = [
+    {
+    id: "world-pulse",
+    title: "World Pulse",
+    description:
+      "An interactive 3D geospatial visualization platform that transforms global datasets into an immersive, real-time Earth experience.",
+    image: "/images/worldpulse.png",
+    technologies: [<SiNextdotjs key="next" />, <SiReact key="react" />, <SiTailwindcss key="tailwind" />],
+    liveLink: "https://world-pulse-rho.vercel.app/",
+    githubLink: "https://github.com/Abdul-Salim/world-pulse",
+    category: "frontend",
+  },
   {
     id: "oudh-markaz",
     title: "E-Commerce Platform",
