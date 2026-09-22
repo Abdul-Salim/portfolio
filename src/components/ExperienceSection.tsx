@@ -14,10 +14,21 @@ type ExperienceItem = {
 
 const experiences: ExperienceItem[] = [
   {
+    title: "Experience Engineer L2",
+    company: "Publicis Sapient",
+    location: "Cochin",
+    date: "July 2025 - Present",
+    description: [
+      "Developed and enhanced customer-facing features for a global cruise booking platform, contributing to the digital journey from cruise discovery through booking.",
+      "Owned key frontend enhancements across the Promotions & Offers experience, enabling customers to discover, evaluate, and apply relevant cruise offers throughout the booking journey.",
+      "Developed and maintained unit tests and adhered to accessibility standards, ensuring reliable, inclusive, and production-ready user experiences",
+    ],
+  },
+  {
     title: "Software Engineer",
     company: "iLeaf Solutions",
     location: "Cochin",
-    date: "March 2023 - Present",
+    date: "March 2023 - May 2025",
     description: [
       "Leveraged modern web technologies like Next.js, React, Sveltekit and Directus CMS to create business administration tools.",
       "Reduced bundle size by 35% through code splitting and lazy loading techniques",
